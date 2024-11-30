@@ -1,3 +1,13 @@
+# Revision of Python:
+      Basic✅
+      IF ELSE
+      LOOP
+      SWITCH & PATTERN
+      FUNCTION & RECURSION
+      ARRAY
+      STRING
+
+
 # Complexity
       measuring time to execute ❌
       counting operations involved
