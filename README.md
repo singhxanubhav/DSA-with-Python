@@ -1,6 +1,6 @@
 # Revision of Python:
       Basic✅
-      IF ELSE
+      IF ELSE✅
       LOOP
       SWITCH & PATTERN
       FUNCTION & RECURSION
