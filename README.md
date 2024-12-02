@@ -1,7 +1,7 @@
 # Revision of Python:
       Basic✅
       IF ELSE✅
-      LOOP
+      LOOP✅
       SWITCH & PATTERN
       FUNCTION & RECURSION
       ARRAY

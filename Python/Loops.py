@@ -137,9 +137,6 @@
 # # Initialize a variable to store the reversed number
 # reversed_number = 0
 
-# # Make a copy of the original number
-# original_number = number
-
 # # Reverse the number using a while loop
 # while number != 0:
 #     digit = number % 10  # Get the last digit
@@ -147,12 +144,62 @@
 #     number //= 10  # Remove the last digit from the number
 
 # # Output the reversed number
-# print(f"The reverse of {original_number} is: {reversed_number}")
+# print(f"The reverse {reversed_number}")
 
- 
- 
+
+# #9 Write a Program to display sum of all digits of a given Number N by user
+
+# number = int(input("Enter a number: "))
+
+# sum = 0
+
+# while number != 0:
+#     digit = number % 10
+    
+#     sum = sum + digit
+#     number = number // 10
+    
+# print("Sum of digit is:", sum)    
+    
+
+
+# #10 Write a Program to Check Whether a Number is Prime or Not
+
+# num = int(input("Enter a number(N): "))
+
+
+# if num == 1:
+#     print("it is not a prime")
+# if num > 1:
+      
+#     for i in range(2, num):
+#         if num % i == 0:
+#             print("it is not a prime")
+#             break
         
+#     else:
+#         print("it is a prime no.")
+       
+       
+       
 
+#  Write a Program to Display Prime Numbers Between Two Intervals (entered by user) Example: Enter two numbers: 0 20 Prime numbers between 0 and 20 are: 2 3 5 7 11 13 17 19
+
+num1 = int(input("enter a first no1: "))
+num2 = int(input("enter a second no2: ")) 
+
+
+for num in range(num1, num2+1):
+    if num > 1:
+        for i in range(2, num):
+            if num % i == 0:
+                break
+        
+        else:
+            print(num)        
+            
+          
+    
 
   
       
