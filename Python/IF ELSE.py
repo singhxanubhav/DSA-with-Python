@@ -47,32 +47,43 @@
 
 # Write a Program which accepts coefficients of a quadratic equation from the user and displays the roots (both real and complex roots depending upon the discriminant).
 
-import math
+# import math
 
-# Accept coefficients from the user
-a = float(input("Enter the coefficient a (non-zero): "))
-b = float(input("Enter the coefficient b: "))
-c = float(input("Enter the coefficient c: "))
+# # Accept coefficients from the user
+# a = float(input("Enter the coefficient a (non-zero): "))
+# b = float(input("Enter the coefficient b: "))
+# c = float(input("Enter the coefficient c: "))
 
-# Ensure 'a' is non-zero for a valid quadratic equation
-if a == 0:
-    print("This is not a quadratic equation. 'a' must be non-zero.")
-else:
-    # Calculate the discriminant
-    discriminant = b**2 - 4*a*c
+# # Ensure 'a' is non-zero for a valid quadratic equation
+# if a == 0:
+#     print("This is not a quadratic equation. 'a' must be non-zero.")
+# else:
+#     # Calculate the discriminant
+#     discriminant = b**2 - 4*a*c
     
-    # Determine the nature of roots based on the discriminant
-    if discriminant > 0:
-        # Two distinct real roots
-        root1 = (-b + math.sqrt(discriminant)) / (2 * a)
-        root2 = (-b - math.sqrt(discriminant)) / (2 * a)
-        print(f"The equation has two distinct real roots: {root1} and {root2}")
-    elif discriminant == 0:
-        # One real root (repeated)
-        root = -b / (2 * a)
-        print(f"The equation has one repeated real root: {root}")
-    else:
-        # Complex roots
-        real_part = -b / (2 * a)
-        imaginary_part = math.sqrt(-discriminant) / (2 * a)
-        print(f"The equation has complex roots: {real_part} + {imaginary_part}i and {real_part} - {imaginary_part}i")
+#     # Determine the nature of roots based on the discriminant
+#     if discriminant > 0:
+#         # Two distinct real roots
+#         root1 = (-b + math.sqrt(discriminant)) / (2 * a)
+#         root2 = (-b - math.sqrt(discriminant)) / (2 * a)
+#         print(f"The equation has two distinct real roots: {root1} and {root2}")
+#     elif discriminant == 0:
+#         # One real root (repeated)
+#         root = -b / (2 * a)
+#         print(f"The equation has one repeated real root: {root}")
+#     else:
+#         # Complex roots
+#         real_part = -b / (2 * a)
+#         imaginary_part = math.sqrt(-discriminant) / (2 * a)
+#         print(f"The equation has complex roots: {real_part} + {imaginary_part}i and {real_part} - {imaginary_part}i")
+
+
+# Write a Program to Check whether a year entered by user is Leap Year or not
+
+year = int(input("Enter the year: "))
+
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print("this is a leap year")
+
+else:
+    print("this is not a leap year")
