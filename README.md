@@ -2,9 +2,9 @@
       Basic✅
       IF ELSE✅
       LOOP✅
-      SWITCH  
-      PATTERN
-      FUNCTION  
+      SWITCH✅ 
+      PATTERN✅
+      FUNCTION✅  
       RECURSION
       ARRAY
       STRING
