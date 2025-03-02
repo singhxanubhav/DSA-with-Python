@@ -7,7 +7,9 @@
 #     sum = sum + i
 #     print(sum)
     
-    
+
+
+  
 #2 Write a Program to Generate Multiplication Table of a number (entered by the user) using a for loop.
 
 # num = int(input("Give me a number: "))
@@ -17,6 +19,9 @@
 #     print(num, "*", i, "=", mul)
 # print(mul)
 
+
+
+
 # #3 Write a Program to Find Factorial of a given number N (N is entered by user)
 
 # N = int(input("Give me a number(N): "))
@@ -24,9 +29,12 @@
 # fact = 1
 # for i in range(1, N + 1):
 #     fact = fact * i
-#     # print(fact)
+#     print(fact)
 
 # print(fact)
+
+
+
 
 #4 Write a Program to Display Fibonacci Series upto nth term (n is entered by user)
 
@@ -46,6 +54,8 @@
 #     a = b
 #     b = c
 #     print(c)
+
+
 
 
 # #5 Write a Program to Display Fibonacci Series upto certain number n (n is entered by user) Example: n=100 Output: Fibonacci Series: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89
@@ -70,6 +80,8 @@
 
 
 
+
+
 # #6 Write a Program to Find GCD or HCF of two numbers entered by user
 
 # # Input two numbers
@@ -89,10 +101,11 @@
 #     print(hcf)
     
 # # Print the result
-# print("The HCF of {num1} and {num2} is: {hcf}")
+# print(f"The HCF of {num1} and {num2} is: {hcf}")
 
-# # or
-# # Input two numbers
+
+# or
+# Input two numbers
 # num1 = int(input("Enter the first number: "))
 # num2 = int(input("Enter the second number: "))
 
@@ -112,7 +125,9 @@
 # # Print the result
 # print(f"The HCF of {num1} and {num2} is: {hcf}")
 
-  
+ 
+ 
+ 
 # #7 Write a Program to Find LCM of two numbers entered by user
 
 # num1 = int(input("Enter the first number: "))
@@ -127,6 +142,9 @@
 #         break
 
 # print(lcm)
+ 
+ 
+ 
         
 # #8 Write a Program to Reverse a given Number N by user
 
@@ -145,6 +163,8 @@
 
 # # Output the reversed number
 # print(f"The reverse {reversed_number}")
+
+
 
 
 # #9 Write a Program to display sum of all digits of a given Number N by user
@@ -183,20 +203,20 @@
        
        
 
-#  Write a Program to Display Prime Numbers Between Two Intervals (entered by user) Example: Enter two numbers: 0 20 Prime numbers between 0 and 20 are: 2 3 5 7 11 13 17 19
+# #11  Write a Program to Display Prime Numbers Between Two Intervals (entered by user) Example: Enter two numbers: 0 20 Prime numbers between 0 and 20 are: 2 3 5 7 11 13 17 19
 
-num1 = int(input("enter a first no1: "))
-num2 = int(input("enter a second no2: ")) 
+# num1 = int(input("enter a first no1: "))
+# num2 = int(input("enter a second no2: ")) 
 
 
-for num in range(num1, num2+1):
-    if num > 1:
-        for i in range(2, num):
-            if num % i == 0:
-                break
+# for num in range(num1, num2+1):
+#     if num > 1:
+#         for i in range(2, num):
+#             if num % i == 0:
+#                 break
         
-        else:
-            print(num)        
+#         else:
+#             print(num)        
             
           
     
