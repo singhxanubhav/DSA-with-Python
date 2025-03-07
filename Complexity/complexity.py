@@ -18,3 +18,7 @@ for digit in str(n):
     sum_of_digits += int(digit)  # Convert back to integer and add to the sum
 
 print("Sum of digits:", sum_of_digits)  # Output: 15
+
+
+
+
